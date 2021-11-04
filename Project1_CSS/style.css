@@ -1,19 +1,44 @@
+body {
+    background-color: #6e8965;
+    background-image: linear-gradient(rgb(248, 249, 217),#6e8965);
+    height: 500px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 h1 {
     color: rgb(141, 45, 0);
-    text-align:center;
+    text-align: center;
+    font-family: cursive;
     font-style: italic;
+    font-size: xx-large;
 }
 
 h2 {
     color: rgb(141, 45, 0);
     text-align:center;
-    font-style: italic;
+    font-size: xxx-large;
+}
+
+h3 {
+    color: rgb(141, 45, 0);
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h4 {
+    color: rgb(141, 45, 0);
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 div {
     background: white;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     font-size: 1em;
     height: 100%;
@@ -34,10 +59,57 @@ span {
     font-size: 100%;
 }
 
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    flex-direction: column;
+}
+  
+.item {
+    height: 300px;
+    width: 33.33%;
+    margin: 20px;
+    border: 0;
+    padding: 5px;
+    background-color: white;
+}
+
+header {
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: left;
+}
+  
+footer {
+    height: 0%;
+    width: 0%;
+}
+
+
 p {
     color: rgb(141, 45, 0);
+    text-align: left;
+    font-size: large;
+}
+
+.wrapper {
+    margin: auto;
+    height: 300px;
+    width: 1000px;
     text-align: center;
-    font-size: x-large;
+}
+
+
+section {
+    padding:10px;
+    margin: 1%;
+    text-align: center;
 }
 
 #twitter {
@@ -67,3 +139,4 @@ p {
     margin: 10px;
     width: 200px;
  
+
